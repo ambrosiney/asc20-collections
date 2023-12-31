@@ -1,22 +1,20 @@
-# Ordinals Collections Standards
+# ETH-Scriptions Collections Standards
 
-#### A place for creators &amp; builders to organize ordinal collections
+#### A place for creators &amp; builders to organize ordinal collections!
 
 ## Getting Started
 
 **_Artists_**
 
-Collection creators can format their collection data using the `inscriptions.json` and `meta.json` format below to be listed on all platforms using the standard
+Collection creators can format their collection data using the `inscriptions.json` and `meta.json` format below to be
+listed on all platforms using the standard!
 
 **_Steps_**
 
 1. Create your `inscriptions.json` and `meta.json` files in the format provided below
+    - Check out [this](https://jsonlint.com/) file formatting tool!
 2. Add to the registry by creating a pull request including new collections that follow the standard
-3. After successfully opening a pull request, your files will be tested for compatibility with the main repo. If the test fails, click on "Details" to look into the test log for error messages. You might get a hint on what needs to be corrected within your pull request. 
-
-**_Tips_**
-- Check out [this](https://ordinals-metadata-composer.vercel.app/) file formatting tool
-- Formatting can also easily be done in Visual Studio Code Editor. Open your .json with Visual Studio Code and press Shift+Alt+F.
+3. Websites can use the registry to include the ordinal collections provided on their websites!
 
 ## File Structure
 
@@ -34,8 +32,8 @@ Collection creators can format their collection data using the `inscriptions.jso
 ```
 {
   "name": "",                    # inscription name
-  "inscription_icon": "",        # (optional) collection cover inscription id
-  "icon": "",                    # (optional) collection cover icon url
+  "inscription_icon": "",        # collection cover inscription id
+  "supply": "",                  # total supply
   "slug": "",                    # directory name
   "description": "",             # collection description
   "twitter_link": "",            # official twitter
@@ -58,6 +56,25 @@ Collection creators can format their collection data using the `inscriptions.jso
 ]
 ```
 
+## Expanding Inscription Data
+
+Collections can be organized using `status` and `rank`
+
+```
+[
+  {
+    "id": "",
+    "meta": {
+      "name": "",
+      "status": "",               # inscription theme
+      "rank":                     # inscription rarity rank
+      "content_uri":              # inscription content URI
+    }
+  },
+  ...
+]
+```
+
 Artists can assign unqiue traits to ordinals with `attributes`
 
 ```
@@ -65,11 +82,14 @@ Artists can assign unqiue traits to ordinals with `attributes`
   {
     "id": "",
     "meta": {
+      "rank": ,
       "name": ""
       "attributes": [
         {
           "trait_type": "",        # trait category
           "value": "",             # trait value
+          "status": "",            # trait theme
+          "percent": ""            # percent of inscriptions in collection with trait
         },
         ...
       ]
@@ -85,13 +105,15 @@ Your meta.json file will look like this:
 
 ```
 {
-  "name": "Bitcoin Frog #2989",
-  "inscription_icon": "c387a2656ef973a55df57edd3ac4b26b09865cc3fcb21cfaa4921ead1363f53ai0",
-  "slug": "bitcoin-frogs",
-  "description": "Bitcoin Frogs are 10,000 pure digital collectibles that will remain on Bitcoin forever. No more will ever be created. Rarities of all traits within each layer are equal, allowing subjective appreciation of aesthetics and Satoshi-based rarities to emerge.",
-  "twitter_link": "https://twitter.com/BitcoinFrogs",
-  "discord_link": "https://discord.com/invite/bitcoinfrogs",
-  "website_link": "https://bitcoinfrogs.com"
+  "name": "ETH Scriptions",
+  "inscription_icon": "0x105b9e469377123241df04ea72020b26320726fe17211dd384d4a6eaf06d7eb7",
+  "supply": "1000",
+  "slug": "eth-scriptions",
+  "description": "Eth-scriptions [ES] is a platform that provides dApps
+to support the development of Ethscriptions.",
+  "twitter_link": "https://twitter.com/eth_scriptions",
+  "discord_link": "https://discord.com/invite/urSjj39X23",
+  "website_link": "https://eth-scriptions.com/"
 }
 ```
 
@@ -100,64 +122,51 @@ Your inscriptions.json file will look like this:
 ```
 [
   {
-    "id": "c387a2656ef973a55df57edd3ac4b26b09865cc3fcb21cfaa4921ead1363f53ai0",
+    "id": "0x105b9e469377123241df04ea72020b26320726fe17211dd384d4a6eaf06d7eb7",
     "meta": {
-      "name": "Bitcoin Frog #2989",
+      "name": "ETH Scriptions #1",
+      "status": "Rare",
+      "rank": 1,
+      "content_uri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAu0lEQVR42mNgGAWjAAb+owGYGMWGYjMc2RKquhqXJSRb9p9EQBVL1nUnEmURRYbPzveF89EtpChiNSI2ohgKomFiFPsAZIhO4FQwRrYAJgZTTnQ8ICsGBQnIMBBX0y4FxRcwMWT3kJOZUIIDGcPESLIA3SKYBfgwurvIsgAWVDADsVlAciqCcfG5HmQxSA0l5RKKgfGynHCM7AOKiyR84U+Vkho57JGTLtWqAjQXU9VwBmyphuqVGSUWAAAxL08QNk6n2gAAAABJRU5ErkJggg=="
       "attributes": [
         {
           "trait_type": "Background",
-          "value": "Black",
+          "value": "Sun sun",
+          "status": "Rare",
+          "percent": "2.90%"
         },
         {
-          "trait_type": "Body",
-          "value": "Tron",
-        },
-        {
-          "trait_type": "Clothing",
-          "value": "Green Hoodie",
-        },
-        {
-          "trait_type": "Mouth",
-          "value": "Cigar",
-        },
-        {
-          "trait_type": "Eyes",
-          "value": "Visor",
+          "trait_type": "Holes",
+          "value": "rose blossom",
+          "status": "Rare",
+          "percent": "2.90%"
         }
-
       ]
     }
-  }
+  },
+  {
+    "id": "0x105b9e469377123241df04ea72020b26320726fe17211dd384d4a6eaf06d7eb7",
+    "meta": {
+      "name": "ETH Scriptions #2",
+      "status": "Common",
+      "rank": 2,
+      "content_uri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAu0lEQVR42mNgGAWjAAb+owGYGMWGYjMc2RKquhqXJSRb9p9EQBVL1nUnEmURRYbPzveF89EtpChiNSI2ohgKomFiFPsAZIhO4FQwRrYAJgZTTnQ8ICsGBQnIMBBX0y4FxRcwMWT3kJOZUIIDGcPESLIA3SKYBfgwurvIsgAWVDADsVlAciqCcfG5HmQxSA0l5RKKgfGynHCM7AOKiyR84U+Vkho57JGTLtWqAjQXU9VwBmyphuqVGSUWAAAxL08QNk6n2gAAAABJRU5ErkJggg=="
+      "attributes": [
+        {
+          "trait_type": "Background",
+          "value": "Darkness",
+          "status": "Common",
+          "percent": "34.78%"
+        },
+        {
+          "trait_type": "Holes",
+          "value": "grey skies",
+          "status": "Uncommon",
+          "percent": "4.35%"
+        }
+      ]
+    }
+  },
+  ...
 ]
 ```
-
-## Error hunting 
-
-After succesfully opening a pull request, your metadata files will be auto-tested for compatibility with the main repo. 
-
-✅ Green check mark means there were no problems found and your files should be ready to be merged into the repo by the maintainer. 
-
-❌ Red mark means there were conflicts found in your file. Click on "Details" to see the autocheck log. In the log, the end of the "Run tests" section will give you a hint on what went wrong. 
-
-### Common mistakes
-
-#### Wrong "supply" in the meta.json. 
-If the supply is lower than the amount of inscriptions in the inscriptions.json, the website may not list your whole collection.
-
-#### Too many commas. 
-On of the most common mistakes in jsons is having commas between a closing " and a closing } or ].
-wrong:
-```javascript ..."example",} ``` 
-correct: 
-```javascript ..."example"} ```
-
-#### Wrong directory. 
-Your meta.json and inscriptions.json should go into /ordinals-collections/collections/your-collection-name/... 
-Ideally, "your-collection-name" and "slug" within the meta.json are identical. To correct the directory in your open pull request, simply go to "Edit" your jsons within it, and then look at the directory above the edit section. If you backspace on the filename you can edit the /directory entry too!
-
-#### Outdated fork used for creating a pull request. 
-When UPDATING your collection metadata, please make sure you have updated/synchronized the repo fork your are creating the pull request for. 
-
-#### Different directory or "slug" in metadata update 
-Please use THE SAME directory (and also "slug" in meta.json) as you used for your collection before. Otherwise your pull request will be conflicting with the main repo, and may require the maintainer to manually delete your old metadata before merging your new pull request. 
-
