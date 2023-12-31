@@ -1,1 +1,10 @@
-{"name":"69 Frogs","slug":"69-frogs","supply":"100","description":"69 frogs","twitter_link":"https://twitter.com/_BitPunks_","discord_link":"","website_link":"https://bitpunks.io/","inscription_icon":"https://creator-hub-prod.s3.us-east-2.amazonaws.com/ord-69frogs_pfp_1703845249712.png"}
+{
+  "name":"69 Frogs",
+  "slug":"69-frogs",
+  "supply":"100",
+  "description":"69 frogs",
+  "twitter_link":"https://twitter.com/_BitPunks_",
+  "discord_link":"",
+  "website_link":"https://bitpunks.io/",
+  "inscription_icon":"0x3a2fab3a0a56e4f566f1c4b038fadd76636979fbab90b8ee89b426a846978d14"
+}
