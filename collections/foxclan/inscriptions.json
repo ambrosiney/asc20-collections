@@ -68,5 +68,12 @@
             "name": "Fox #10",
             "attributes": [{"trait_type":"Background","value":"Poisonous Gas"},{"trait_type":"Accessories","value":"None"},{"trait_type":"Skin","value":"Leopard Print"},{"trait_type":"Eyes","value":"Blindfold"},{"trait_type":"Hair","value":"Pixie"},{"trait_type":"Clothing","value":"King's Outfit"},{"trait_type":"Mouth","value":"Neutral"},{"trait_type":"Headwear","value":"None"}]
         }
+    },
+    {
+        "id": "0x6651d2a3923331cd72374db2df1dfb37bae48e9fd08819185e512c432ed41a0d",
+        "meta": {
+            "name": "Fox #11",
+            "attributes": []
+        }
     }
 ]
