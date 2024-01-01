@@ -1,0 +1,72 @@
+[
+    {
+        "id": "0xff184f01fdd561a016b4650a37afe421c9f2816453dd0b14bb34754df0fd986f",
+        "meta": {
+            "name": "Fox #1",
+            "attributes": [{"trait_type":"Background","value":"Space"},{"trait_type":"Accessories","value":"None"},{"trait_type":"Skin","value":"Green"},{"trait_type":"Eyes","value":"Blue"},{"trait_type":"Hair","value":"Skinhead"},{"trait_type":"Clothing","value":"Basketball Jersey #23"},{"trait_type":"Mouth","value":"Polka Dot Sock"},{"trait_type":"Headwear","value":"None"}]
+        }
+    },
+    {
+        "id": "0x4d30f1d43f9bd994844f918eb17d26e96c623b49b8686efe9deeecbe848c1a24",
+        "meta": {
+            "name": "Fox #2",
+            "attributes": [{"trait_type":"Background","value":"Coral Blue"},{"trait_type":"Accessories","value":"Toy Gun"},{"trait_type":"Skin","value":"Purple"},{"trait_type":"Eyes","value":"Sunnies"},{"trait_type":"Hair","value":"Skinhead"},{"trait_type":"Clothing","value":"Bare"},{"trait_type":"Mouth","value":"Neutral"},{"trait_type":"Headwear","value":"Arrow"}]
+        }
+    },
+    {
+        "id": "0xf90cb78fa1777fec45f70629ca51f3a3cd3e380c9309504ac07e03f18bba8e73",
+        "meta": {
+            "name": "Fox #3",
+            "attributes": [{"trait_type":"Background","value":"Red Rays"},{"trait_type":"Accessories","value":"None"},{"trait_type":"Skin","value":"Magma"},{"trait_type":"Eyes","value":"Green"},{"trait_type":"Hair","value":"Mohawk"},{"trait_type":"Clothing","value":"Tuxedo"},{"trait_type":"Mouth","value":"Flipflop"},{"trait_type":"Headwear","value":"Head Lamp"}]
+        }
+    },
+    {
+        "id": "0x84aeec6df58639e90e446e3371ecde158ea1e07479ecaa6b4d6b27dd8bbfc71f",
+        "meta": {
+            "name": "Fox #4",
+            "attributes": [{"trait_type":"Background","value":"Space"},{"trait_type":"Accessories","value":"Lasergun"},{"trait_type":"Skin","value":"Ice"},{"trait_type":"Eyes","value":"Full Yellow"},{"trait_type":"Hair","value":"Straight Bangs"},{"trait_type":"Clothing","value":"Spacesuit"},{"trait_type":"Mouth","value":"Lollipop"},{"trait_type":"Headwear","value":"Space Helmet"}]
+        }
+    },
+    {
+        "id": "0xe00aee53cf861613f0d68cdc2d1da1dd520d86070798df278f9fbe0b872c6988",
+        "meta": {
+            "name": "Fox #5",
+            "attributes": [{"trait_type":"Background","value":"Lime Green"},{"trait_type":"Accessories","value":"Hero Cape"},{"trait_type":"Skin","value":"Green"},{"trait_type":"Eyes","value":"Smiley"},{"trait_type":"Hair","value":"Cruella"},{"trait_type":"Clothing","value":"Knight Armor"},{"trait_type":"Mouth","value":"Golden Coin"},{"trait_type":"Headwear","value":"None"}]
+        }
+    },
+    {
+        "id": "0xcecbd3d89137d905726fe97e86fd324b7eeb2c24382ce9913a2de3b166ffd978",
+        "meta": {
+            "name": "Fox #6",
+            "attributes": []
+        }
+    },
+    {
+        "id": "0x00095a8d8416d94ef6d5d44c7311e069798420d3db122070a83cbfd20d8e62a1",
+        "meta": {
+            "name": "Fox #7",
+            "attributes": []
+        }
+    },
+    {
+        "id": "0x5a10a6f859a63ed2b2e7459a21e9228c8ed23cd5bdede87bba59eafdc7964aee",
+        "meta": {
+            "name": "Fox #8",
+            "attributes": [{"trait_type":"Background","value":"Solana Themed"},{"trait_type":"Accessories","value":"Gatling Gun"},{"trait_type":"Skin","value":"Black"},{"trait_type":"Eyes","value":"Green"},{"trait_type":"Hair","value":"Dreadlocks"},{"trait_type":"Clothing","value":"Skull Necklace"},{"trait_type":"Mouth","value":"Flipflop"},{"trait_type":"Headwear","value":"None"}]
+        }
+    },
+    {
+        "id": "0x9f97e4ba819a4407650b845fc45e1e39b88c175c6802ddbbd8f14cece7cc3099",
+        "meta": {
+            "name": "Fox #9",
+            "attributes": [{"trait_type":"Background","value":"Coral Blue"},{"trait_type":"Accessories","value":"Silver Mace"},{"trait_type":"Skin","value":"Green"},{"trait_type":"Eyes","value":"Geek Glasses"},{"trait_type":"Hair","value":"Straight Long"},{"trait_type":"Clothing","value":"Robe"},{"trait_type":"Mouth","value":"Neutral"},{"trait_type":"Headwear","value":"Trapper Hat"}]
+        }
+    },
+    {
+        "id": "0x4a98da302688056301b77a63b81137d1dc81a6291a571c50e71b153632b3a076",
+        "meta": {
+            "name": "Fox #10",
+            "attributes": [{"trait_type":"Background","value":"Poisonous Gas"},{"trait_type":"Accessories","value":"None"},{"trait_type":"Skin","value":"Leopard Print"},{"trait_type":"Eyes","value":"Blindfold"},{"trait_type":"Hair","value":"Pixie"},{"trait_type":"Clothing","value":"King's Outfit"},{"trait_type":"Mouth","value":"Neutral"},{"trait_type":"Headwear","value":"None"}]
+        }
+    }
+]
